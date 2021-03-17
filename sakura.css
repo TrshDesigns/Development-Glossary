@@ -37,6 +37,10 @@ body {
   height:100px;
   background-color:rgb(234, 234, 234);
 }
+.emoji{
+  position:relative;
+  top:35px;
+}
 #content {
   margin-left: 425px;
 }
@@ -77,6 +81,7 @@ body {
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 80px;
+  border-top-left-radius: 30px;
   transition: ease-in-out 0.6s;
 }
 #nav-left-item:hover {
@@ -212,7 +217,9 @@ sup {
 }
 
 hr {
-  border-color: royalblue;
+  margin:70px 0px 70px 0px;
+  border-radius:10px;
+  border:3px dashed royalblue;
 }
 
 a {
