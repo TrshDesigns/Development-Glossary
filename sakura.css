@@ -72,11 +72,11 @@ body {
   background-color: rgba(249, 249, 255, 0.731);
   border-radius: 10px;
   list-style:none;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 15px;
   margin-right: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 80px;
   transition: ease-in-out 0.6s;
 }
 #nav-left-item:hover {
@@ -86,7 +86,6 @@ body {
   margin-top: 20px;
   padding: 10px;
   margin-right: 20px;
-  margin-top: 70px;
   margin-bottom: 70px;
   border-bottom: white solid 90px;
   transition: all ease-in-out 0.6s;
@@ -212,7 +211,7 @@ sup {
 }
 
 hr {
-  border-color: #1d7484;
+  border-color: royalblue;
 }
 
 a {
