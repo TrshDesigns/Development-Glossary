@@ -38,7 +38,7 @@ body {
   background-color:rgb(234, 234, 234);
 }
 #content {
-  margin-left: 500px;
+  margin-left: 425px;
 }
 #nav-left-square {
   margin-left: 23px;
@@ -130,6 +130,7 @@ margin-left: 400px;
   margin-right: 20px;
   margin-left:10px;
 }
+
 #nav-left {
   position: fixed;
   height: 96.3%;
