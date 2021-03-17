@@ -159,18 +159,6 @@ height:96,3%;
   body {
     font-size: 1.53rem;
   }
-  #nav-left:hover{
-    width:250px;
-  }
-  #nav-left-hover{
-    width:100px;
-  }
-}
-
-@media (max-width: 382px) {
-  body {
-    font-size: 1.35rem;
-  }
 }
 
 h1,
