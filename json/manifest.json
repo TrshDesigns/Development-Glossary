@@ -1,6 +1,6 @@
 {
     "name": "Development Glossary",
-    "short_name": "Glossary",
+    "short_name": "Develop Glossary",
     "start_url": "/?home=true",
     "icons":[
       {
@@ -16,8 +16,8 @@
         "purpose": "maskable any"
       }
     ]
-    ,"theme_color": "#1d7484",
-    "background_color": "#1d7484",
+    ,"theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "fullscreen",
     "orientation": "any"
     }
