@@ -171,7 +171,7 @@ body {
   transition: all 1.9s;
 }
 #nav-left:hover {
-  background-color: #dcdcdc;
+  background-color: #e8e8e8;
   border-top-left-radius: 0%;
   transition: all 1s;
   width: 420px;
@@ -254,7 +254,6 @@ body {
   }
   #nav-left:hover {
     border-top-left-radius:0px;
-    background-color:#dfdfdf;
     border-top-left-radius: 0%;
     transition: all 0.5s;
     width: 100%;
