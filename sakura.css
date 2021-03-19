@@ -245,7 +245,7 @@ body {
 }
 #nav-left-item:hover{
   margin-bottom:20px;
-  border-bottom: rgb(227, 226, 226) solid 100px;
+  border-bottom: #ffffff solid 100px;
 }
 }
 @media (max-width: 500px) {
