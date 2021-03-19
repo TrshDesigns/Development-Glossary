@@ -77,7 +77,7 @@ body {
   animation: blinker 2.1s linear infinite;
   position: absolute;
   right: 10px;
-  top: 7px;
+  top: 17px;
   z-index: 1;
   opacity: 25%;
   color: royalblue;
