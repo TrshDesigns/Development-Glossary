@@ -43,11 +43,22 @@ body {
 }
 #content {
   margin-left: 425px;
+  background-image: linear-gradient(rgba(11, 33, 74, 0.154) 2px, transparent 0px);
+  background-size:100% 1.1em;
+  background-position-y:32px;
+  line-height:1.1em;
 }
 @keyframes blinker {
   50% {
     opacity: 0%;
   }
+}
+.content-paragraph{
+  background-color:rgb(255, 255, 255);
+  color:rgb(67, 67, 67);
+  padding:10px;
+  line-height:1.6em;
+  font-weight:700;
 }
 #nav-left-square {
   margin-left: 23px;
@@ -327,7 +338,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.1;
+  line-height: 2.1em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   font-weight: 700;
