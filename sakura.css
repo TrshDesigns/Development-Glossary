@@ -196,14 +196,14 @@ body {
     left:30px;
   }
   #nav-left-square {
-  margin-left: 23px;
+  margin-left: 5px;
   color: royalblue;
   font-size: 35px;
 }
 #nav-left-square-shadow-blinker {
   animation: blinker 2.1s linear infinite;
   position: absolute;
-  right: 50px;
+  right: 60px;
   top: 17px;
   z-index: 1;
   opacity: 25%;
