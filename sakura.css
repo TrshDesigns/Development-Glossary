@@ -44,6 +44,11 @@ body {
 #content {
   margin-left: 425px;
 }
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 #nav-left-square {
   margin-left: 23px;
   color: royalblue;
@@ -60,6 +65,18 @@ body {
   transition: all 1s;
   border-radius: 10px;
   border: 7px double rgba(255, 255, 255, 0.131);
+  z-index:10;
+}
+#nav-left-square-shadow-blinker {
+  animation: blinker 2s linear infinite;
+  position: absolute;
+  right:10px;
+  top:7px;
+  z-index:1;
+  opacity: 32%;
+  color:royalblue;
+  box-shadow: rgb(13, 5, 59) 7px 10px 10px 0px;
+  border-radius:6px;
 }
 #nav-left-header{
   position:fixed;
@@ -83,6 +100,7 @@ body {
   margin-bottom: 80px;
   border-top-left-radius: 30px;
   transition: ease-in-out 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.11) 4px 5px 0px 0px;
 }
 #nav-left-item:hover {
   background-color: royalblue;
@@ -93,6 +111,7 @@ body {
   margin-right: 20px;
   margin-bottom: 70px;
   border-bottom: white solid 90px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 2px 1px 0px;
   transition: all ease-in-out 0.6s;
 }
 .block{
