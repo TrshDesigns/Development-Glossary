@@ -1,7 +1,7 @@
 {
     "name": "Development Glossary",
     "short_name": "Development Glossary",
-    "start_url": "/?home=true",
+    "start_url": "https://sad-mcclintock-8c1c7b.netlify.app/",
     "icons":[
       {
         "src": "/resources/icons/manifest-icon-192.png",
