@@ -3,6 +3,7 @@ var cacheName = 'v1';
 
 // Default files to always cache
 var cacheFiles = [
+	'/',
 	'/index.html',
 	'./css/style.css',
 	'https://fonts.googleapis.com/css2?family=Fascinate&display=swap'
