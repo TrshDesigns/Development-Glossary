@@ -6,7 +6,8 @@ var cacheFiles = [
 	'/',
 	'/index.html',
 	'./css/style.css',
-	'https://fonts.googleapis.com/css2?family=Fascinate&display=swap'
+	'https://fonts.googleapis.com/css2?family=Fascinate&display=swap',
+	'https://kit.fontawesome.com/1fe7acc072.js'
 ]
 
 self.addEventListener('install', function(e) {
