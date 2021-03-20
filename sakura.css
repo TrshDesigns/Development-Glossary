@@ -20,7 +20,7 @@ body {
   background-color: #ffffff;
   padding: 13px;
 }
-#nav-left-anchor {
+a, #nav-left-anchor {
   z-index: 10;
   color: black;
   font-weight: 500;
