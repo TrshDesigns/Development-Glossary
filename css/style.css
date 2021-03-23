@@ -169,12 +169,12 @@ body {
   font-weight: bold;
   font-size: larger;
   border-top-left-radius: 39%;
-  transition: all 1.2s;
+  transition: all 0.2s;
 }
 #nav-left:hover {
   background-color: #e8e8e8;
   border-top-left-radius: 0%;
-  transition: all 1s;
+  transition: all 0.2s;
   width: 420px;
   height: 96, 3%;
 }
