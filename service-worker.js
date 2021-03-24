@@ -1,10 +1,9 @@
 // Set a name for the current cache
 var cacheName = 'v1'; 
 
-// Default files to always cache
+// Default files to always caches
 var cacheFiles = [
-	'https://fonts.googleapis.com/css2?family=Fascinate&display=swap',
-  '/resources'
+	'https://fonts.googleapis.com/css2?family=Fascinate&display=swap'
 ]
 
 self.addEventListener('install', function(e) {
