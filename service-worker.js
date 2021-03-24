@@ -3,7 +3,7 @@ var cacheName = 'v1';
 
 // Default files to always caches
 var cacheFiles = [
-	'/',
+	'./',
 	'/resources'
 ]
 
