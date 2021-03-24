@@ -4,8 +4,7 @@ var cacheName = 'v1';
 // Default files to always caches
 var cacheFiles = [
 	'https://fonts.googleapis.com/css2?family=Fascinate&display=swap',
-	'https://fonts.gstatic.com',
-	'/resources'
+	'https://fonts.gstatic.com'
 ]
 
 self.addEventListener('install', function(e) {
