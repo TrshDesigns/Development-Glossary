@@ -196,7 +196,7 @@ svg {
 }
 @media (max-width: 850px) {
   .svg-container{
-    top:-40px;
+    top:-32px;
   }
   #nav-left-item {
     padding: 5px;
