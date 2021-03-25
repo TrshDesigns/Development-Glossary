@@ -195,6 +195,9 @@ svg {
   height: 96, 3%;
 }
 @media (max-width: 850px) {
+  .svg-container{
+    top:20px;
+  }
   #nav-left-item {
     padding: 5px;
   }
