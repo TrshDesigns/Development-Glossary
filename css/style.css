@@ -24,6 +24,7 @@ body {
 .in-table{
   padding:0px;
   margin:10px 0px 10px 0px;
+  width:auto;
 }
 .table{
   background-color:rgb(5, 16, 39);
@@ -185,7 +186,7 @@ svg {
   color: black;
   transition: all 0.1s;
   transition-delay:0.2s;
-  cursor:vertical-text;
+  cursor: url("/resources/logo/GlossaryCursor.png"), auto;
 }
 #nav-left-h2 {
   text-align: center;
@@ -551,7 +552,9 @@ pre {
   margin-top: 0px;
   margin-bottom: 2.5rem;
 }
-
+li::marker{
+  color:royalblue;
+}
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
