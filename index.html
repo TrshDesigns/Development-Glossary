@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="/css/style.css" />
   <script src="https://unpkg.com/scrollreveal@4"></script>
 	<script>
-		ScrollReveal({ duration: 1000 })
+		ScrollReveal({ duration: 1200 })
     ScrollReveal({ reset: true });
 	</script>
 </head>
@@ -90,11 +90,11 @@
       </a>
     </li>
      <li id="nav-left-item">
-      <a class="nav-left-anchor" href="#what-is-PseudoCode"><img alt="emoji" class="emoji" width="40px" height="40px"
-          src="/resources/openmoji-svg-color/1F4D1.svg" />¿What is a Variable?
+      <a class="nav-left-anchor" href="#what-is-a-Variable"><img alt="emoji" class="emoji" width="40px" height="40px"
+          src="/resources/openmoji-svg-color/1F5F3.svg" />¿What is a Variable?
         <p class="nav-hidden-text">
-          it is a translation of the Flow Chart into a description of the
-          code to be programmed.
+          a Variable is group of characters that represents a 
+          value (true, false, text, etc)
         </p>
       </a>
     </li>
@@ -111,7 +111,7 @@
   </ul>
 </div>
   </nav>
-  <main class="reveal" id="content">
+  <main id="content">
     <div class="svg-container">
       <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
         <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:rgb(45, 85, 208);"></path>
@@ -224,7 +224,30 @@
     </p>
   </div>
   <hr>
-  <div class="reveal-content">
+      <div class="reveal-content">
+      <blockquote id="what-is-a-Variable">
+        <p>
+          <strong>¿What is a Variable?<img alt="emoji" class="emoji" width="60px" height="60px"
+              src="/resources/openmoji-svg-color/1F5F3.svg" /></strong>
+        </p>
+      </blockquote>
+      <p class="content-paragraph">
+        In computer programming, a variable is a
+         storage location paired 
+         with an associated symbolic name, which contains some known 
+         or unknown quantity of
+        information referred to as a value.
+      </p>
+      <details>
+        <summary>Code example of diferent Variables</summary>
+        <ul class="table">
+          <li>A = 1 B = 2 <br> C = A + B</li>
+          <li> A = "Undefined"</li>
+          <li>A = [1, 2, 3, 4, 5...]</li>
+        </ul>
+      </details>
+    </div>
+  <hr>
     <blockquote id="what-is-an-Expression">
       <p>
         <strong>¿What is an Expression<img alt="emoji" class="emoji" width="60px" height="60px"
@@ -246,53 +269,59 @@
     </ul>
     <p>
       Depending on the type of data Expressions can be clasified as Arithmetic, Relational or Logic expressions</p>
-     <p> Here is a list with the most used  Arithmetic Operetors in programming</p>
-      <ul class="table">
-        <li>+ Plus: 5 + 7 = 12 (This outputs the sum of two integer numbers, two real numbers or a combination of both)</li>
-        <hr class="in-table">
-        <li>- Less: 12.0 - 5.5 = 6.5 (This outputs the subtraction of two integer numbers, two real numbers or a combination of both)</li>
-        <hr class="in-table">
-        <li>- Arithmetic negation: -45 (This outputs a change the sign of the operand from negative to positive or vice versa)</li>
-        <hr class="in-table">
-        <li>* Multiplication: 5 * 2.5 = 12.5 (This outputs a multiply of two integer numbers, two real numbers or a combination of both)</li>
-        <hr class="in-table">
-        <li>/ Division: 10 / 3 = 3 (This outputs the subtraction of two integer numbers, two real numbers or a combination of both and the excess is discarded)</li>
-        <hr class="in-table">
-        <li>% Module: 10 % 3 = 1 (This outputs the excess of a divsion)</li>
-        <hr class="in-table">
-        <li>^ Exponentiation: 5 ^ 2 = 25 (This outputs the elevation of the first operand to the power of the second operand)</li>
-      </ul>
-      <p>
-        Here is a list of the most used Relational Operators in programming
-      </p>
-      <ul class="table">
-        <li>> Greater than: 8 > 15 = false</li>
-        <hr class="in-table">
-        <li>< Smaller than: 8 < 15 = true</li>
-        <hr class="in-table">
-        <li>>= Greater or equal than: 8 >= 8 = true </li>
-        <hr class="in-table">
-        <li><= Smaller or equal then: 8 <= -8 = false</li>
-        <hr class="in-table">
-        <li>== Equals: "a" == "b" = false</li>
-        <hr class="in-table">
-        <li><> Diferent: 10 <> 3 = true</li>
-      </ul>
-      <p>Here is a list of the most used Logic Operators in programming</p>
-      <ul class="table">
-        <li>&& Conjuction: "a" == "b" && "c" < "d" (it is true if both statements are acomplished) </li>
-        <hr class="in-table">
-        <li>|| Disjunction "a" == "b" || "c" < "d" (it is true if one of the statements is acomplished) </li>
-        <hr class="in-table">
-        <li>! Negation: !("a"=="b") (it is true if the statement is not acomplished)</li>
-      </ul>
-  </div>
+      <details>
+        <summary> Here is a list with the most used  Arithmetic Operetors in programming</summary>
+        <ul class="table">
+          <li>+ Plus: 5 + 7 = 12 (This outputs the sum of two integer numbers, two real numbers or a combination of both)</li>
+          <hr class="in-table">
+          <li>- Less: 12.0 - 5.5 = 6.5 (This outputs the subtraction of two integer numbers, two real numbers or a combination of both)</li>
+          <hr class="in-table">
+          <li>- Arithmetic negation: -45 (This outputs a change the sign of the operand from negative to positive or vice versa)</li>
+          <hr class="in-table">
+          <li>* Multiplication: 5 * 2.5 = 12.5 (This outputs a multiply of two integer numbers, two real numbers or a combination of both)</li>
+          <hr class="in-table">
+          <li>/ Division: 10 / 3 = 3 (This outputs the subtraction of two integer numbers, two real numbers or a combination of both and the excess is discarded)</li>
+          <hr class="in-table">
+          <li>% Module: 10 % 3 = 1 (This outputs the excess of a divsion)</li>
+          <hr class="in-table">
+          <li>^ Exponentiation: 5 ^ 2 = 25 (This outputs the elevation of the first operand to the power of the second operand)</li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          Here is a list of the most used Relational Operators in programming
+        </summary>
+        <ul class="table">
+          <li>> Greater than: 8 > 15 = false</li>
+          <hr class="in-table">
+          <li>< Smaller than: 8 < 15 = true</li>
+          <hr class="in-table">
+          <li>>= Greater or equal than: 8 >= 8 = true </li>
+          <hr class="in-table">
+          <li><= Smaller or equal then: 8 <= -8 = false</li>
+          <hr class="in-table">
+          <li>== Equals: "a" == "b" = false</li>
+          <hr class="in-table">
+          <li><> Diferent: 10 <> 3 = true</li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          Here is a list of the most used Logic Operators in programming
+        </summary>
+        <ul class="table">
+          <li>&& Conjuction: "a" == "b" && "c" < "d" (it is true if both statements are acomplished) </li>
+          <hr class="in-table">
+          <li>|| Disjunction "a" == "b" || "c" < "d" (it is true if one of the statements is acomplished) </li>
+          <hr class="in-table">
+          <li>! Negation: !("a"=="b") (it is true if the statement is not acomplished)</li>
+        </ul>
+      </details>
     <hr>
 </div>
   </main>
   <script>
-		ScrollReveal().reveal('.reveal', {delay: 1500})
-		ScrollReveal().reveal('.reveal-content', { delay: 100 })
+		ScrollReveal().reveal('.reveal-content', { delay: 0 })
 	</script>
 </body>
 </html>
