@@ -537,7 +537,7 @@ blockquote {
   border-left: 7px solid royalblue;
   margin-bottom: 2.5rem;
   background-color: #ffffff;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.043);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.013);
   border-radius: 10px;
   width:fit-content;
 
