@@ -386,7 +386,7 @@ svg {
     margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 0px;
     transition: ease-in-out 0.6s;
     box-shadow: rgba(0, 0, 0, 0.11) 4px 5px 0px 0px;
   }
@@ -534,7 +534,7 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 7px solid royalblue;
+  border-left: 7.5px solid royalblue;
   margin-bottom: 2.5rem;
   background-color: #ffffff;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.033);
