@@ -31,7 +31,7 @@ body {
   padding:16px;
   border-radius:20px;
   color:white;
-  width:max-content;
+  width:fit-content;
 }
 .table{
   max-width:1200px;
@@ -110,7 +110,7 @@ details:hover summary:hover {
   font-size: 45px;
   text-shadow: 0 1px 0 #110736, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
-    0 1px 3px, 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 1px 3px, 0 10px 10px #00000033,
     0 5px 10px rgba(255, 255, 255, 0.5);
   transition: all 1s;
   border-radius: 10px;
@@ -305,7 +305,7 @@ svg {
   }
   #nav-left-item:hover {
     margin-bottom: 20px;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
   }
 }
 @media (max-width: 550px) {
@@ -397,7 +397,7 @@ svg {
     padding-left: 10px;
     margin-right: 20px;
     margin-bottom: 5px;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
     transition: all ease-in-out 0.8s;
   }
   .nav-hidden-text {
@@ -536,7 +536,7 @@ blockquote {
   border-left: 7px solid royalblue;
   margin-bottom: 2.5rem;
   background-color: #f1f1f1;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.32);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.20);
   border-radius: 10px;
   width:fit-content;
 
