@@ -26,10 +26,22 @@ body {
   margin:10px 0px 10px 0px;
   width:auto;
 }
-.table{
-  background-color:rgb(5, 16, 39);
+.sub-content-header{
+  background-color:rgb(45, 85, 208);
+  padding:16px;
+  border-radius:20px;
   color:white;
-  border-radius:10px;
+  width:max-content;
+}
+.table{
+  max-width:1200px;
+  width:fit-content;
+  list-style:none;
+   background:rgb(45, 85, 208);
+   color:white;
+  box-shadow: 0 8px 32px 0 rgba(38, 117, 201, 0.32);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.673);
   padding:5px;
   margin-right:10px;
   font-family:monospace;
@@ -147,11 +159,8 @@ details:hover summary:hover {
   margin-top: 20px;
   padding: 10px;
   margin-right: 20px;
-  margin-bottom: 70px;
-  border-bottom: white solid 90px;
-  box-shadow: rgba(0, 0, 0, 0) 0px 2px 1px 0px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
   transition: all ease-in-out 0.6s;
-   transition-delay:0.3s;
 }
 svg {
   display: inline-block;
@@ -296,8 +305,7 @@ svg {
   }
   #nav-left-item:hover {
     margin-bottom: 20px;
-    border-bottom: rgb(255, 255, 255) solid 100px;
-    box-shadow: rgba(0, 0, 0, 0.11) 4px 5px 0px 0px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
   }
 }
 @media (max-width: 550px) {
@@ -389,8 +397,7 @@ svg {
     padding-left: 10px;
     margin-right: 20px;
     margin-bottom: 5px;
-    border-bottom: white solid 75px;
-    box-shadow: rgba(0, 0, 0, 0.11) 4px 5px 0px 0px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
     transition: all ease-in-out 0.8s;
   }
   .nav-hidden-text {
@@ -526,9 +533,13 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid royalblue;
+  border-left: 7px solid royalblue;
   margin-bottom: 2.5rem;
   background-color: #f1f1f1;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.32);
+  border-radius: 10px;
+  width:fit-content;
+
 }
 
 blockquote p {
