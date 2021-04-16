@@ -11,6 +11,8 @@ html {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     user-select: none;
     -webkit-user-select: none;
+    scroll-behavior: smooth;
+
 }
 body {
   font-size: 1.8rem;
@@ -313,6 +315,9 @@ svg {
     font-size: 1.53rem;
     padding: 0px;
   }
+  blockquote{
+      scroll-margin-top: 350px;
+  }
   .svg-container {
     top:-32px;
   }
@@ -539,6 +544,7 @@ blockquote {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.033);
   border-radius: 10px;
   width:fit-content;
+  scroll-margin-top: 30px;
 
 }
 
