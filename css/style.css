@@ -290,7 +290,7 @@ svg {
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 590px) {
   body {
     font-size: 1.53rem;
     padding: 0px;
