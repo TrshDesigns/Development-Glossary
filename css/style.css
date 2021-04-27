@@ -428,6 +428,9 @@ svg {
     border-radius: 0px;
     display: none;
   }
+  #nav-left-ul {
+    padding-left: 0px;
+  }
   #nav-left-h2 {
       font-size: 40px;
   }
