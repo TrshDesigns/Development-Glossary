@@ -230,8 +230,7 @@ svg {
 }
 #search-bar{
   margin-left:5px;
-  font-family:monospace;
-  text
+  font-family:monospace;changes
 }
 @media (max-width: 850px) {
   #nav-left-item {
