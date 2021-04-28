@@ -148,7 +148,7 @@ details:hover summary:hover {
   border-radius: 10px;
   list-style: none;
   margin-top: 0px;
-  padding: 15px;
+  padding: 12px;
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -160,10 +160,6 @@ details:hover summary:hover {
   background-color: royalblue;
   cursor: pointer;
   border-radius: 10px;
-  list-style: none;
-  margin-top: 20px;
-  padding: 10px;
-  margin-right: 20px;
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
   transition: all ease-in-out 0.6s;
 }
@@ -201,7 +197,7 @@ svg {
 
 #nav-left {
   position: fixed;
-  height: 96.3%;
+  height: 96%;
   width: 23px;
   background-color: #f9f9ff;
   border-radius: 10px;
@@ -218,7 +214,7 @@ svg {
   border-top-left-radius: 0%;
   transition: all 0.6s;
   width: 420px;
-  height: 96, 3%;
+  height: 96%;
 }
 #search-bar::placeholder{
   font-family: "Fascinate", "cursive";
@@ -233,12 +229,6 @@ svg {
   font-family:monospace;
 }
 @media (max-width: 850px) {
-  #nav-left-item {
-    padding: 5px;
-  }
-  #nav-left-item:hover {
-    padding: 5px;
-  }
   #nav-left:hover {
     border-top-left-radius: 0%;
     transition: all 1s;
@@ -286,7 +276,7 @@ svg {
     margin-bottom: 10px;
   }
   #nav-left-item:hover {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
   }
 }
@@ -380,12 +370,8 @@ svg {
     background-color: #f9f9ff;
     border-radius: 10px;
     list-style: none;
-    margin-top: 0px;
-    padding: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 5px 5px 5px;
+    padding:0px 0px 0px 0px;
     border-top-left-radius: 0px;
     transition: ease-in-out 0.6s;
     box-shadow: rgba(0, 0, 0, 0.11) 4px 5px 0px 0px;
@@ -394,12 +380,11 @@ svg {
     background-color: royalblue;
     border-radius: 10px;
     list-style: none;
-    margin-top: 5px;
-    padding-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 5px;
+    margin: 5px 0px 5px 40px;
+    padding:0px 0px 0px 0px;
+    font-size:20px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
-    transition: all ease-in-out 0.8s;
+    transition: all ease-in-out 0.4s;
   }
   .emoji {
     z-index: 1;
