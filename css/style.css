@@ -31,7 +31,7 @@ body {
   background-color: rgb(45, 85, 208);
   margin-right: 10px;
   padding: 10px;
-  margin-left:25px;
+  margin-left:5px;
   border-radius: 20px;
   color: white;
   width: fit-content;
@@ -486,12 +486,26 @@ a {
 ul {
   margin-top: 0px;
   margin-bottom: 2.5rem;
+  margin-left:0px;
 }
 
 li {
   margin-bottom: 0.4em;
 }
-
+.slider-container{
+  margin: 50px auto; 
+  position: relative; 
+  width: 240px; 
+  height: 240px; 
+  padding: 10px; 
+}
+.slider-container > div {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; 
+}
 blockquote {
   margin-left: 0px;
   margin-right: 0px;
