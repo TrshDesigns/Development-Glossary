@@ -500,6 +500,7 @@ blockquote {
   padding-bottom: 0.8em;
   padding-right: 0.8em;
   border-left: 7.5px solid royalblue;
+  margin-left:10px;
   margin-bottom: 2.5rem;
   background-color: #ffffff;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.033);
