@@ -46,7 +46,7 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.673);
   padding: 5px;
-  margin-right: 10px;
+  margin:0px 10px 30px 15px;
   font-family: monospace;
   line-height: 30px;
 }
@@ -87,7 +87,7 @@ body {
 details summary {
   cursor: pointer;
   font-weight: 900;
-  margin: 30px 0px 30px 0px;
+  margin: 0px 0px 30px 20px;
   color: rgb(34, 70, 178);
   outline: none;
 }
@@ -192,7 +192,7 @@ svg {
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
     0 1px 3px, 0 10px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.5);
   margin-right: 20px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 #nav-left {
@@ -244,6 +244,7 @@ svg {
     top: -20;
     font-size: 30px;
     left: 12.5px;
+    margin-left:10px;
   }
   #nav-left-square {
     margin-left: 5px;
@@ -491,20 +492,6 @@ ul {
 
 li {
   margin-bottom: 0.4em;
-}
-.slider-container{
-  margin: 50px auto; 
-  position: relative; 
-  width: 240px; 
-  height: 240px; 
-  padding: 10px; 
-}
-.slider-container > div {
-  position: absolute; 
-  top: 10px; 
-  left: 10px; 
-  right: 10px; 
-  bottom: 10px; 
 }
 blockquote {
   margin-left: 0px;
