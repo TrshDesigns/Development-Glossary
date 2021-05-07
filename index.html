@@ -47,7 +47,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="resources/logo/G.png" />
   <link rel="stylesheet" href="/css/style.css" />
-  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
 </head>
 <body class="reveal-0">
   <script>
@@ -424,7 +427,7 @@
     }
   </script>
   <script>
-    ScrollReveal().reveal('.reveal-content', {delay:0},{reset:true})
+    ScrollReveal().reveal('.reveal-content',{delay:100},{reset:true})
     ScrollReveal().reveal('.reveal-0',{delay:1000},{reset:false})
     ScrollReveal().reveal('.reveal-1',{delay:1500},{reset:false})
     ScrollReveal().reveal('.reveal-2',{delay:2000},{reset:false})
