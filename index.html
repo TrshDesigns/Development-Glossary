@@ -48,12 +48,8 @@
   <link rel="icon" type="image/png" href="resources/logo/G.png" />
   <link rel="stylesheet" href="/css/style.css" />
   <script src="https://unpkg.com/scrollreveal@4"></script>
-  <script>
-    ScrollReveal({ duration: 1000 })
-    ScrollReveal({ reset: true });
-  </script>
 </head>
-<body>
+<body class="reveal-0">
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js');
@@ -63,13 +59,13 @@
   <nav id="nav-left">
     <div id="nav-left-header">
       <h2 id="nav-left-h2">
-        <span translate="no">Glossary</span><span id="nav-left-square" class="fas fa-caret-square-down fa-1x"></span><span
-          id="nav-left-square-shadow-blinker" class="fas fa-caret-square-down fa-1x"></span>
+        <span  translate="no">Glossary</span><span id="nav-left-square" class=" fas fa-caret-square-down fa-1x"></span><span
+          id="nav-left-square-shadow-blinker" class=" fas fa-caret-square-down fa-1x"></span>
       </h2>
     </div>
       <ul id="nav-left-ul">
         <div id="search-background">
-          <input type="text" id="search-bar" onkeyup="myFunction()" placeholder=" Search...">
+          <input type="text" id="search-bar" onkeyup="search()" placeholder=" Search...">
         </div>
     <div id="search-items">
       <li id="nav-left-item">
@@ -116,18 +112,17 @@
       </ul>
   </nav>
   <main id="content">
-    <div class="svg-container">
-      <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
-        <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:rgb(45, 85, 208);"></path>
-      </svg>
-      <a></a>
-    </div>
-    <h1>
-      Development Glossary
-      <img alt="emoji" class="emoji" width="90px" height="90px" src="/resources/openmoji-svg-color/1F3F5.svg" />
-    </h1>
+      <div class="svg-container">
+        <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+          <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style=" stroke: none; fill:rgb(45, 85, 208);"></path>
+        </svg>
+      </div>
+      <h1>
+          <span class="reveal-0">Development</span><span class="reveal-1"> Glossary</span>
+          <img alt="emoji" class="reveal-2 emoji" width="90px" height="90px" src="/resources/openmoji-svg-color/1F3F5.svg" />
+        </h1>
     <h2>
-      A Place to find yourself in the noise<img alt="emoji" class="emoji" width="60px" height="60px"
+      <span class="reveal-3">a Place to find yourself</span><span class="reveal-4"> in the noise</span><img alt="emoji" class="reveal-4 emoji" width="60px" height="60px"
         src="/resources/openmoji-svg-color/1F4A1.svg" />
     </h2>
     <div class="selectable">
@@ -390,23 +385,25 @@
         </details>
       </details>
       <hr>
-      <blockquote id="what-is-a-Function">
-        <p>
-          <strong>¿What is a Function?<img alt="emoji" class="emoji" width="60px" height="60px"
-              src="/resources/openmoji-svg-color/E259.svg" /></strong>
+      <div class="reveal-content">
+        <blockquote id="what-is-a-Function">
+          <p>
+            <strong>¿What is a Function?<img alt="emoji" class="emoji" width="60px" height="60px"
+                src="/resources/openmoji-svg-color/E259.svg" /></strong>
+          </p>
+        </blockquote>
+        <p class="content-paragraph">
+          A Function is specific self contained part of code that performs a specific task functions
+          usually take in data procces it and return a value depending on the result,
+          functions helps our projects to have better modularity and more reusability, Different programming languages
+          name them differently,
+          for example, functions, methods, sub-routines, procedures, etc.
         </p>
-      </blockquote>
-      <p class="content-paragraph">
-        A Function is specific self contained part of code that performs a specific task functions
-        usually take in data procces it and return a value depending on the result,
-        functions helps our projects to have better modularity and more reusability, Different programming languages
-        name them differently,
-        for example, functions, methods, sub-routines, procedures, etc.
-      </p>
+      </div>
     </div>
   </main>
   <script>
-    function myFunction() {
+    function search() {
       // Declare variables
       var input, filter, ul, li, a, i, txtValue;
       input = document.getElementById('search-bar');
@@ -427,7 +424,12 @@
     }
   </script>
   <script>
-    ScrollReveal().reveal('.reveal-content', { delay: 0 })
+    ScrollReveal().reveal('.reveal-content', {delay:0},{reset:true})
+    ScrollReveal().reveal('.reveal-0',{delay:1000},{reset:false})
+    ScrollReveal().reveal('.reveal-1',{delay:1500},{reset:false})
+    ScrollReveal().reveal('.reveal-2',{delay:2000},{reset:false})
+    ScrollReveal().reveal('.reveal-3',{delay:2500},{reset:false})
+    ScrollReveal().reveal('.reveal-4',{delay:3000},{reset:false})
   </script>
 </body>
 
