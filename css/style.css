@@ -130,6 +130,7 @@ p {
   background-size: 100% 1.1em;
   background-position-y: 32px;
   line-height: 1.1em;
+  scroll-padding-top: -1400px;
 }
 details summary {
   cursor: pointer;
@@ -264,19 +265,12 @@ svg {
 }
 #search-bar::placeholder {
   font-family: "Fascinate", "cursive";
-  color: #ffffff;
+  color: royalblue;
   text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 rgba(170, 170, 170, 0.655), 0 6px 1px rgba(0, 0, 0, 0.1),
     0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px, 0 10px 10px rgba(0, 0, 0, 0.072),
     0 5px 10px rgba(0, 0, 0, 0.228);
-  font-size: 16px;
-}
-#search-bar {
-  margin-left: 5px;
-  font-family: monospace;
-}
-#main-header-title{
-  z-index:20;
+  font-size: 17px;
 }
 @media (max-width: 850px) {
   #nav-left:hover {
@@ -317,7 +311,8 @@ svg {
   }
   #search-bar {
     border: 5px solid royalblue;
-    width: 190px;
+    width: 100%;
+    font-family: monospace;
     background-color: white;
   }
   .nav-left-anchor {
@@ -342,7 +337,7 @@ svg {
   h4,
   h5,
   h6 {
-    line-height:0px;
+    line-height: 0px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     font-weight: 700;
@@ -393,7 +388,7 @@ svg {
     width: 100%;
     background-color: rgb(45, 85, 208);
     padding-top: 8px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     scroll-snap-type: mandatory;
   }
   #nav-left {
@@ -404,7 +399,7 @@ svg {
     z-index: 10;
     border-bottom: 7px solid rgb(45, 85, 208);
     border-bottom-right-radius: 25px;
-    border-bottom-left-radius:25px;
+    border-bottom-left-radius: 25px;
   }
   #nav-left:hover {
     border-top-left-radius: 0px;
@@ -460,8 +455,7 @@ svg {
     border-radius: 0px;
   }
   #search-bar {
-    width: 220px;
-    margin-left: 10px;
+    width: 90%;
   }
   #nav-left-item {
     background-color: #f9f9ff;
@@ -517,7 +511,6 @@ svg {
     font-size: 40px;
   }
 }
-
 
 small,
 sub,
