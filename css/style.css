@@ -514,7 +514,7 @@ svg {
     font-size: 40px;
   }
 }
-@media (max-width:380px){
+@media (max-width:395px){
   .nav-left-anchor{
     font-size:18px;
   }
