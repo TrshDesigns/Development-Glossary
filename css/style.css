@@ -116,10 +116,7 @@ p {
 }
 #content {
   margin-left: 425px;
-  background-image: linear-gradient(
-    rgba(11, 33, 74, 0.022) 2px,
-    transparent 0px
-  );
+  background-image: linear-gradient( rgba(11, 33, 74, 0.022) 2px,transparent 0px);
   background-size: 100% 1.1em;
   background-position-y: 32px;
   line-height: 1.1em;
@@ -172,6 +169,10 @@ details:hover summary:hover {
 }
 #nav-left-ul {
   margin-top: 130px;
+}
+#search-bar{
+  width: 310px;
+  height: 30px;
 }
 #nav-left-header {
   left: 48px;
@@ -227,7 +228,6 @@ svg {
   margin-right: 20px;
   margin-left: 30px;
 }
-
 #nav-left {
   position: fixed;
   height: 96%;
@@ -676,10 +676,6 @@ select:focus,
 input:focus {
   border: 5px solid royalblue;
   outline: 0;
-}
-input[type="text"] {
-  width: 300px;
-  height: 30px;
 }
 input[type="checkbox"]:focus {
   outline: 1px dotted #1d7484;
