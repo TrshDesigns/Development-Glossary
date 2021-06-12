@@ -1,468 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Development Glossary</title>
-  <meta charset="utf-8" />
-  <link rel="apple-touch-icon" href="icons/apple-icon-180.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-2732.jpg"
-    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2732-2048.jpg"
-    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2388.jpg"
-    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2388-1668.jpg"
-    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1536-2048.jpg"
-    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-1536.jpg"
-    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2224.jpg"
-    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2224-1668.jpg"
-    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1620-2160.jpg"
-    media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2160-1620.jpg"
-    media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1284-2778.jpg"
-    media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2778-1284.jpg"
-    media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1170-2532.jpg"
-    media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2532-1170.jpg"
-    media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1125-2436.jpg"
-    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2436-1125.jpg"
-    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2688.jpg"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2688-1242.jpg"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-828-1792.jpg"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1792-828.jpg"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2208.jpg"
-    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-2208-1242.jpg"
-    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-750-1334.jpg"
-    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1334-750.jpg"
-    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-640-1136.jpg"
-    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="icons/apple-splash-1136-640.jpg"
-    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
-  <link rel="canonical" href="https://sad-mcclintock-8c1c7b.netlify.app/" />
-  <link rel="apple-touch-icon" href="/resources/logo/apple-touch-icon.png.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet" />
-  <link rel="manifest" href="/json/manifest.json" />
-  <meta name="description" content="A simple tool to help students understand new concepts" />
-  <meta name="theme-color" content="#4169e1">
-  <meta name="keywords" content="learning, programming, code" />
-  <meta name="author" content="TrshDesigns" />
-  <meta name="copyright" content="OpenSource" />
-  <meta name="robots" content="index" />
-  <meta http-equiv="expires" content="43200" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="resources/logo/G.png" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script>
-    ScrollReveal({ reset: true });
-  </script>
-</head>
-
-<body class="reveal-0">
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
-    }
-  </script>
-  <script src="https://kit.fontawesome.com/1fe7acc072.js" crossorigin="anonymous"></script>
-  <nav id="nav-left">
-    <div id="nav-left-header">
-      <h2 id="nav-left-h2">
-        <span translate="no">Glossary</span><span id="nav-left-square"
-          class=" fas fa-caret-square-down fa-1x"></span><span id="nav-left-square-shadow-blinker"
-          class=" fas fa-caret-square-down fa-1x"></span>
-      </h2>
-    </div>
-    <ul id="nav-left-ul">
-      <div id="search-header">
-        <div id="search-background"></div>
-        <input type="text" id="search-bar" onkeyup="search()" placeholder=" Search...">
+  <head>
+    <title>Development Glossary</title>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" href="icons/apple-icon-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2048-2732.jpg"
+      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2732-2048.jpg"
+      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1668-2388.jpg"
+      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2388-1668.jpg"
+      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1536-2048.jpg"
+      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2048-1536.jpg"
+      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1668-2224.jpg"
+      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2224-1668.jpg"
+      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1620-2160.jpg"
+      media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2160-1620.jpg"
+      media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1284-2778.jpg"
+      media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2778-1284.jpg"
+      media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1170-2532.jpg"
+      media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2532-1170.jpg"
+      media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1125-2436.jpg"
+      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2436-1125.jpg"
+      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1242-2688.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2688-1242.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-828-1792.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1792-828.jpg"
+      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1242-2208.jpg"
+      media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-2208-1242.jpg"
+      media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-750-1334.jpg"
+      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1334-750.jpg"
+      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-640-1136.jpg"
+      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="icons/apple-splash-1136-640.jpg"
+      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    />
+    <link rel="canonical" href="https://sad-mcclintock-8c1c7b.netlify.app/" />
+    <link
+      rel="apple-touch-icon"
+      href="/resources/logo/apple-touch-icon.png.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="/json/manifest.json" />
+    <meta
+      name="description"
+      content="A simple tool to help students understand new concepts"
+    />
+    <meta name="theme-color" content="#4169e1" />
+    <meta name="keywords" content="learning, programming, code" />
+    <meta name="author" content="TrshDesigns" />
+    <meta name="copyright" content="OpenSource" />
+    <meta name="robots" content="index" />
+    <meta http-equiv="expires" content="43200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="resources/logo/G.png" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body class="reveal-content">
+    <script
+      src="https://kit.fontawesome.com/1fe7acc072.js"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <h1 id="Glossary-logo">
+        <span translate="no">Glossary</span
+        ><span
+          id="nav-left-square"
+          class="fas fa-caret-square-down fa-1x"
+        ></span>
+      </h1>
+      <div id="header-items">
+        <button class="button">
+          <a href="/html/Glossary.html">Glossary</a>
+        </button>
+        <button class="button"><a href="/html/Glossary.html">About</a></button>
       </div>
-      <div id="search-items">
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" href="#what-means-being-a-Programmer"><img alt="laptop" class="emoji" width="30px"
-              height="40px" src="/resources/openmoji-svg-color/1F4BB.svg" />¿What means being a Programmer?
-          </a>
-        </li>
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" href="#what-is-a-Program"><img alt="program" class="emoji" width="40px" height="40px"
-              src="/resources/openmoji-svg-color/1F54B.svg" />¿What is a Program?
-          </a>
-        </li>
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" onclick="hidenav()" href="#what-is-an-Algorithm"><img alt="algorithm" class="emoji" width="40px"
-              height="40px" src="/resources/openmoji-svg-color/1F9FE.svg" />¿What is an Algorithm?
-          </a>
-        </li>
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" href="#what-is-a-Flowchart"><img alt="flowchart" class="emoji" width="40px"
-              height="40px" src="/resources/openmoji-svg-color/1F503.svg" />¿What is a Flowchart?
-          </a>
-        </li>
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" href="#what-is-PseudoCode"><img alt="pseudocode" class="emoji" width="40px"
-              height="40px" src="/resources/openmoji-svg-color/1F4D1.svg" />¿What is PseudoCode?
-          </a>
-        </li>
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" href="#what-is-a-Variable"><img alt="variable" class="emoji" width="40px"
-              height="40px" src="/resources/openmoji-svg-color/1F5F3.svg" />¿What is a Variable?
-          </a>
-        </li>
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" href="#what-is-an-Expression"><img alt="expression" class="emoji" width="40px"
-              height="40px" src="/resources/openmoji-svg-color/1F4AC.svg" />¿What is an Expression?
-          </a>
-        </li>
-        <li id="nav-left-item">
-          <a class="nav-left-anchor" href="#what-is-a-Function"><img alt="function" class="emoji" width="40px"
-              height="40px" src="/resources/openmoji-svg-color/E259.svg" />¿What is a Function?
-          </a>
-        </li>
-      </div>
-    </ul>
-  </nav>
-  <main id="content">
-    <div class="svg-container">
-      <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
-        <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style=" stroke: none; fill:rgb(45, 85, 208);"></path>
-      </svg>
-    </div>
-    <h1>
-      <span class="reveal-0">Development</span><span class="reveal-1"> Glossary</span>
-      <img alt="glossary" class="reveal-2 emoji" width="90px" height="90px"
-        src="/resources/openmoji-svg-color/1F3F5.svg" />
-    </h1>
-    <h2>
-      <span class="reveal-3">a Place to find yourself</span><span class="reveal-4"> in the noise</span><img alt="light bulb"
-        class="reveal-4 emoji" width="60px" height="60px" src="/resources/openmoji-svg-color/1F4A1.svg" />
-    </h2>
-    <div class="selectable">
-      <div class="reveal-content">
-        <blockquote id="what-means-being-a-Programmer">
-          <p>
-            <strong>¿What means being a Programmer?<img alt="laptop" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/1F4BB.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph reveal-content">
-          Being a programmer is more than just write code you need more skills
-          than code writing to be a succesfull programer, team work, patience and
-          constant improvement are some of the habilities that programmers need in
-          order to face daily challenges
-        </p>
-      </div>
-      <hr />
-      <div class="reveal-content">
-        <blockquote id="what-is-a-Program">
-          <p>
-            <strong>¿What is a Program?<img alt="program" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/1F54B.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph">
-          A program is a Software entity that allows us to solve a specific
-          problem. We say that it is a Software entity since it is not a set of
-          physical components (such as hardware) but allows us to manipulate them.
-          When we talk about a program, we refer to a set of logical elements
-          (called Algorithms) that are specified, designed and later implemented
-          by the development team.
-        </p>
-        <p class="sub-content-header">Common uses of a program:</p>
-        <ul>
-          <li>Solve the accounting of a company.</li>
-          <li>Manipulate a robot.</li>
-          <li>Read and play audio, video, text files, etc.</li>
-          <li>Perform mathematical operations.</li>
-        </ul>
-      </div>
-      <hr />
-      <div class="reveal-content">
-        <blockquote id="what-is-an-Algorithm">
-          <p>
-            <strong>¿What is an Algorithm?<img alt="algorithm" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/1F9FE.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph">
-          In formal terms, an algorithm is a fundamental logical unit. That is, a
-          portion of reasoning. An algorithm allows you to solve a problem with a
-          specific objective. We usually make an analogy between algorithms and
-          cooking recipes. Thats it, if our problem to solve is 'Cooking a vanilla
-          sponge cake', we can propose our recipe in an orderly way like an
-          algorithm to solve the recipe or "the problem"
-        </p>
-        <br />
-        <p class="sub-content-header">
-          Unlike programs, they solve more general problems.
-          Among these more general problems we can include:
-        </p>
-        <ul>
-          <li>Sort a messy data set.</li>
-          <li>Calculate the verification digit of the ID.</li>
-          <li>Encryption of a password.</li>
-          <li>Calculate the area of ​​a polygon.</li>
-        </ul>
-        <hr />
-        <blockquote id="what-is-a-Flowchart">
-          <p>
-            <strong>¿What is a Flowchart?<img alt="flowchart" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/1F503.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph">
-          A flowchart is simply a graphical representation of steps. It shows
-          steps in sequential order and is widely used in presenting the flow of
-          algorithms, workflow or processes. Typically, a flowchart shows the
-          steps as boxes of various kinds, and their order by connecting them with
-          arrows.
-        </p>
-      </div>
-      <hr />
-      <div class="reveal-content">
-        <blockquote id="what-is-PseudoCode">
-          <p>
-            <strong>¿What is PseudoCode?<img alt="pseudocode" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/1F4D1.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph">
-          Pseudocode is an informal way of programming description that does not
-          require any strict programming language syntax or underlying technology
-          considerations. It is used for creating an outline or a rough draft of a
-          program. Pseudocode summarizes a program’s flow, but excludes underlying
-          details. System designers write pseudocode to ensure that programmers
-          understand a software project's requirements and align code accordingly.
-        </p>
-      </div>
-      <hr>
-      <div class="reveal-content">
-        <blockquote id="what-is-a-Variable">
-          <p>
-            <strong>¿What is a Variable?<img alt="variable" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/1F5F3.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph">
-          In computer programming, a variable is a
-          storage location paired
-          with an associated symbolic name, which contains some known
-          or unknown quantity of
-          information referred to as a value. in programming a good practice is that our variables have a descriptive
-          name referring to what they store
-        </p>
-        <details>
-          <summary>Code example of different Variables</summary>
-          <ul class="table">
-            <li>A = 1 B = 2 <br> C = A + B</li>
-            <hr class="in-table">
-            <li> A = "Undefined"</li>
-            <hr class="in-table">
-            <li>A = [1, 2, 3, 4, 5...]</li>
-            <hr class="in-table">
-            <li>A = "Name" B = "Surname"</li>
-          </ul>
-        </details>
-      </div>
-      <hr>
-      <blockquote id="what-is-an-Expression">
-        <p>
-          <strong>¿What is an Expression?<img alt="emoji" class="expression" width="60px" height="60px"
-              src="/resources/openmoji-svg-color/1F4AC.svg" /></strong>
-        </p>
-      </blockquote>
-      <p class="content-paragraph">
-        In computer science, an expression is a syntactic entity in a programming language that
-        may be evaluated to determine its value. ... In simple settings, the resulting value is
-        usually one of various primitive types, such as numerical, string, boolean, complex data,
-        or other types of data.
-      </p>
-      <p class="sub-content-header">
-        Those are some of the elements that can conform an expression:
-      </p>
-      <ul>
-        <li>Literal values: 2 'hello' or 5.7 etc</li>
-        <li>Variables operators and procedure calls: 4 * 3 (This outputs the value 10 when evaluated by a computer)
-        </li>
-      </ul>
-      <p class="sub-content-header">
-        Depending on the type of data Expressions can be clasified as Arithmetic, Relational or Logic expressions</p>
-      <details>
-        <summary>Arithmetic Operetors</summary>
-        <p>Arithmetic Operetors are the symbols that represent common arithmetic mathematical operations</p>
-        <ul class="table">
-          <li>+ Plus: 5 + 7 = 12 (This outputs the sum of two integer numbers, two real numbers or a combination of
-            both)</li>
-          <hr class="in-table">
-          <li>- Less: 12.0 - 5.5 = 6.5 (This outputs the subtraction of two integer numbers, two real numbers or a
-            combination of both)</li>
-          <hr class="in-table">
-          <li>- Arithmetic negation: -45 (This outputs a change the sign of the operand from negative to positive or
-            vice versa)</li>
-          <hr class="in-table">
-          <li>* Multiplication: 5 * 2.5 = 12.5 (This outputs a multiply of two integer numbers, two real numbers or a
-            combination of both)</li>
-          <hr class="in-table">
-          <li>/ Division: 10 / 3 = 3 (This outputs the subtraction of two integer numbers, two real numbers or a
-            combination of both and the excess is discarded)</li>
-          <hr class="in-table">
-          <li>% Module: 10 % 3 = 1 (This outputs the excess of a divsion)</li>
-          <hr class="in-table">
-          <li>^ Exponentiation: 5 ^ 2 = 25 (This outputs the elevation of the first operand to the power of the second
-            operand)</li>
-        </ul>
-      </details>
-      <details>
-        <summary>
-          Relational Operators
-        </summary>
-        <p>Relational Operators are the symbols that represents relations between two or more values</p>
-        <ul class="table">
-          <li>> Greater than: 8 > 15 = false</li>
-          <hr class="in-table">
-          <li>
-            < Smaller than: 8 < 15=true</li>
-              <hr class="in-table">
-          <li>>= Greater or equal than: 8 >= 8 = true </li>
-          <hr class="in-table">
-          <li>
-            <= Smaller or equal then: 8 <=-8=false</li>
-              <hr class="in-table">
-          <li>== Equals: "a" == "b" = false</li>
-          <hr class="in-table">
-          <li>
-            <> Different: 10 <> 3 = true
-          </li>
-        </ul>
-      </details>
-      <details>
-        <summary>
-          Logic Operators
-        </summary>
-        <p class="table-header">Logic Operators are the symbols that represents conditions between a number of values
-        </p>
-        <ul class="table">
-          <li>&& Conjuction: "a" == "b" && "c" < "d" (it is true if both statements are acomplished) </li>
-              <hr class="in-table">
-          <li>|| Disjunction "a" == "b" || "c" < "d" (it is true if one of the statements is acomplished) </li>
-              <hr class="in-table">
-          <li>! Negation: !("a"=="b") (it is true if the statement is not acomplished)</li>
-        </ul>
-      </details>
-      <details>
-        <summary>Complex Expressions</summary>
-        <blockquote>
-          <p>
-            <strong>! Complex Expressions !<img alt="complex-expressions" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/1F5EF.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph">
-          As in the operations used in arithmetic, in programming languages ​​the simple operations that we have seen so
-          far can be combined
-          into more complex operations and these are evaluated by performing the operations in a pre-established order.
-          This order is specified by the precedence of the operators.
-        </p>
-        <p>Operators with higher precedence are evaluated before operators with lower precedence.
-          When the computer finds an expression with two operators that has the same level of precedence, it evaluates
-          them from left to right.
-        </p>
-        <p>
-          As in basic mathematics, it is possible to alter the order of evaluation by using parentheses to group and
-          order expressions. this happends in computer science beacause the parentheses is the expression with the
-          smallest presedence
-          and that means that any other expression inside it will be evalueted first.
-        </p>
-        <details>
-          <summary>Examples</summary>
-          <ul class="table">
-            <li>Acceleration = (Final_Velocity - Initial-Velocity) / Time</li>
-            <li>Triangle_Area = Base_Lenght * Height_Length / 2</li>
-            <li>Obtained_Interest = Capital * Interest_Rate * Time / 100</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Here is a list with the most common Presedence Order in programming</summary>
-          <ul class="table">
-            <li>1 Parentheses: ( ) </li>
-            <li>2 Arithmetic Negation - </li>
-            <li>3 Exponentiation:: ^ </li>
-            <li>4 Multiplication, Division and Module: * / % </li>
-            <li>5 Adittion and Subtraction</li>
-            <li>6 Relational Operators: > <>= <==<></li>
-            <li>7 Logic Negation: ! </li>
-            <li>9 Conjuction and Disjunction: && || </li>
-          </ul>
-        </details>
-      </details>
-      <hr>
-      <div class="reveal-content">
-        <blockquote id="what-is-a-Function">
-          <p>
-            <strong>¿What is a Function?<img alt="function" class="emoji" width="60px" height="60px"
-                src="/resources/openmoji-svg-color/E259.svg" /></strong>
-          </p>
-        </blockquote>
-        <p class="content-paragraph">
-          A Function is specific self contained part of code that performs a specific task functions
-          usually take in data procces it and return a value depending on the result,
-          functions helps our projects to have better modularity and more reusability, Different programming languages
-          name them differently,
-          for example, functions, methods, sub-routines, procedures, etc.
-        </p>
-      </div>
-    </div>
-  </main>
-  <script>
-    function search() {
-      // Declare variables
-      var input, filter, ul, li, a, i, txtValue;
-      input = document.getElementById('search-bar');
-      filter = input.value.toUpperCase();
-      ul = document.getElementById("search-items");
-      li = ul.getElementsByTagName('li');
-
-      // Loop through all list items, and hide those who don't match the search query
-      for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          li[i].style.display = "";
-        } else {
-          li[i].style.display = "none";
-        }
-      }
-    }
-  </script>
-  <script>
-    ScrollReveal().reveal('.reveal-content', { delay: 100 }, { reset: true })
-    ScrollReveal().reveal('.reveal-0', { delay: 1000 }, { reset: false })
-    ScrollReveal().reveal('.reveal-1', { delay: 1500 }, { reset: false })
-    ScrollReveal().reveal('.reveal-2', { delay: 2000 }, { reset: false })
-    ScrollReveal().reveal('.reveal-3', { delay: 2500 }, { reset: false })
-    ScrollReveal().reveal('.reveal-4', { delay: 4000 }, { reset: false })
-  </script>
-</body>
-
+    </header>
+    <main class="center">
+      <span id="animated-logo" class="fas fa-caret-square-down fa-1x"></span>
+      <h1 id="welcome">Welcome</h1>
+      <p style="position:absolute; margin-top:450px; color:white;">Glossary is  evolving project and you are a part of it</p>
+    </main>
+    <script>
+      ScrollReveal().reveal(".reveal-content", { delay: 400 }, { reset: true });
+    </script>
+  </body>
 </html>

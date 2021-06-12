@@ -1,0 +1,175 @@
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 100%;
+  margin: auto;
+  color: #4a4a4a;
+  background-color: #ffffff;
+}
+:root {
+  --primary-color: royalblue;
+  --accent-color: rgb(50, 89, 204);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 2.1em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+}
+
+h1 {
+  font-size: 2.35em;
+  font-family: "Fascinate", "cursive";
+  color: #ffffff;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px, 0 10px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background: var(--primary-color);
+  justify-content: space-around;
+  border-radius: 10px;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 4px 10px 0px;
+}
+a {
+  text-decoration: none;
+  font-family: "Fascinate", "cursive";
+}
+a:visited {
+  color: royalblue;
+}
+a:hover {
+  color: var(--accent-color);
+}
+#Glossary-logo {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: -45px;
+  font-family: "Fascinate", "cursive";
+  font-size: 55px;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px, 0 10px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+#nav-left-square {
+  color: royalblue;
+  font-size: 55px;
+  text-shadow: 0 1px 0 #110736, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px, 0 10px 10px #00000033, 0 5px 10px rgba(255, 255, 255, 0.5);
+  transition: all 1s;
+  border-radius: 10px;
+  border-left: 10px double rgba(255, 255, 255, 0);
+}
+#welcome{
+    position: absolute;
+    margin-top:300px;
+}
+#animated-logo{
+    position: absolute;
+    margin-top:220px;
+    color: royalblue;
+    font-size: 75px;
+    text-shadow: 0 1px 0 #110736, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+      0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+      0 1px 3px, 0 10px 10px #00000033, 0 5px 10px;
+    transition: all 1s;
+    border-radius: 10px;
+    border-left: 10px double rgba(255, 255, 255, 0);
+    animation:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.button {
+  height: 42px;
+  width: 150px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+main {
+  background: var(--accent-color);
+  height: 100vh;
+  width: 99.9%;
+}
+#header-items {
+  margin-top: 88px;
+  position: fixed;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(36, 37, 38, 0.062);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: royalblue;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(50, 89, 204);
+  border-radius: 10px;
+}
