@@ -2,6 +2,7 @@ html {
   font-size: 62.5%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: bold;
   user-select: none;
   -webkit-user-select: none;
   scroll-behavior: smooth;
@@ -72,7 +73,7 @@ p {
 header {
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 110px;
   background: var(--primary-color);
   justify-content: space-around;
   border-radius: 10px;
@@ -84,7 +85,7 @@ a {
   font-family: "Fascinate", "cursive";
 }
 a:visited {
-  color: royalblue;
+  color: var(--primary-color);
 }
 a:hover {
   color: var(--accent-color);
@@ -95,8 +96,9 @@ a:hover {
   position: fixed;
   top: -45px;
   font-family: "Fascinate", "cursive";
-  font-size: 55px;
+  font-size: 35px;
   color: #ffffff;
+  padding-top:10px;
   text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
     0 1px 3px, 0 10px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -104,7 +106,7 @@ a:hover {
 }
 #nav-left-square {
   color: royalblue;
-  font-size: 55px;
+  font-size: 35px;
   text-shadow: 0 1px 0 #110736, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
     0 1px 3px, 0 10px 10px #00000033, 0 5px 10px rgba(255, 255, 255, 0.5);
@@ -115,6 +117,9 @@ a:hover {
 #welcome{
     position: absolute;
     margin-top:300px;
+    transition:all 1s;
+    -webkit-animation: letter 5.2s ease 0s infinite normal ;
+    animation: letter 5.2s ease 0s infinite normal ;
 }
 #animated-logo{
     position: absolute;
@@ -127,7 +132,9 @@ a:hover {
     transition: all 1s;
     border-radius: 10px;
     border-left: 10px double rgba(255, 255, 255, 0);
-    animation:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -webkit-animation: jump 2.2s ease 0s infinite normal ;
+    animation: jump 2.2s ease 0s infinite normal ;
+    animation-delay:1.8s;
 }
 .button {
   height: 42px;
@@ -144,9 +151,12 @@ main {
   background: var(--accent-color);
   height: 100vh;
   width: 99.9%;
+  display:flex;
+  border-bottom-left-radius: 45vw;
+  box-shadow: rgba(0, 0, 0, 0.21) 10px 10px 10px 20px;
 }
 #header-items {
-  margin-top: 88px;
+  margin-top: 64px;
   position: fixed;
 }
 /* width */
@@ -155,7 +165,6 @@ main {
   border-radius: 10px;
   border-radius: 10px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
   background: rgba(36, 37, 38, 0.062);
@@ -172,4 +181,52 @@ main {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(50, 89, 204);
   border-radius: 10px;
+}
+@keyframes jump {
+  0%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40%{
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  50%{
+    -webkit-transform: translateY(-20);
+    transform: translateY(-20);
+  }
+  60%{
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    transform:rotate(0deg)
+  }
+  80%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+ }
+}
+@keyframes letter{
+    0%{
+    letter-spacing:0px;
+  }
+  40%{
+    letter-spacing:0px
+  }
+  50%{
+    letter-spacing:20px;
+  }
+  60%{
+    letter-spacing:0px;
+  }
+  100%{
+    letter-spacing:0px;
+ }
 }
