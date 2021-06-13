@@ -318,7 +318,7 @@ svg {
 }
 @media (max-width: 590px) {
   html{
-    scroll-padding-top: 410px;
+    scroll-padding-top: 290px;
   }
   body {
     font-size: 1.53rem;
@@ -395,7 +395,7 @@ svg {
     border-top-left-radius: 0px;
     transition: all 0.5s;
     width: 100%;
-    height: 46.5%;
+    height: 30%;
     top: 100px;
     z-index: 10;
   }
