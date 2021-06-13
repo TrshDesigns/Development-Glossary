@@ -164,19 +164,23 @@
       ScrollReveal({ reset: true });
     </script>
   </head>
-  <body class="reveal-content">
+  <body>
     <script
       src="https://kit.fontawesome.com/1fe7acc072.js"
       crossorigin="anonymous"
     ></script>
-    <header>
+    <header class="reveal-content" style="z-index:1;">
       <h1 id="Glossary-logo">
-        <span translate="no">Glossary</span
-        ><span
-          id="nav-left-square"
-          class="fas fa-caret-square-down fa-1x"
-        ></span>
+        <span translate="no">Glossary</span><span id="nav-left-square" class="fas fa-caret-square-down fa-1x"></span>
       </h1>
+      <div id="top-header-items" style="width:100vw; z-index:2; height:50px; margin-top:10px; display:flex; justify-content:flex-end; position:absolute;">
+        <button class="button" id="login-button">
+          <a href="/html/Glossary.html">Login</a>
+        </button>
+        <button class="button" id="register-button">
+          <a href="/html/Glossary.html">Register</a>
+        </button>
+      </div>
       <div id="header-items">
         <button class="button">
           <a href="/html/Glossary.html">Glossary</a>
@@ -184,9 +188,15 @@
       </div>
     </header>
     <main class="center">
-      <span id="animated-logo" class="fas fa-caret-square-down fa-1x"></span>
-      <h1 id="welcome">Welcome</h1>
-      <p style="position:absolute; margin-top:450px; color:white; background-color:rgb(45, 85, 208); border-radius:10px;">Glossary is  evolving project and you are a part of it</p>
+      <svg style="position:absolute; top:112px; z-index:0;" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+        <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style=" stroke: none; fill:rgb(38, 77, 192);"></path>
+      </svg>
+      <content class="center">
+        <span id="animated-logo" class="fas fa-caret-square-down fa-1x"></span>
+        <h1 id="welcome">Welcome</h1>
+        <p class="message">Glossary is an evolving project and you are part of it</p>
+      </content>
+      <img style="top:60vh; position:absolute; filter: drop-shadow(0 20px .95rem rgba(0, 0, 0, 0.297));" src="/resources/images/Glossary on android.png">
     </main>
     <script>
       ScrollReveal().reveal(".reveal-content", { delay: 400 }, { reset: true });
