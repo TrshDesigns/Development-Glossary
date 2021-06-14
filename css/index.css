@@ -126,13 +126,13 @@ a:hover {
 }
 #welcome {
   position: absolute;
-  margin-top: 35vh;
+  margin-top: 41vh;
   transition: all 1s;
   -webkit-animation: letter 5.2s ease 0s infinite normal;
   animation: letter 5.2s ease 0s infinite normal;
 }
 #animated-logo {
-  margin-top: 24vh;
+  margin-top: 30vh;
   color: royalblue;
   font-size: 75px;
   text-shadow: 0 1px 0 #110736, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -144,6 +144,7 @@ a:hover {
   -webkit-animation: jump 2.2s ease 0s infinite normal;
   animation: jump 2.2s ease 0s infinite normal;
   animation-delay: 1.8s;
+  z-index:0;
 }
 .button {
   height: 47px;
@@ -174,7 +175,7 @@ a:hover {
 }
 .message {
   position: absolute;
-  margin-top: 45vh;
+  margin-top: 57vh;
   color: white;
   background-color: rgb(45, 85, 208);
   font-size: 20px;
