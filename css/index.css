@@ -180,6 +180,7 @@ a:hover {
   background-color: rgb(45, 85, 208);
   font-size: 20px;
   border-radius: 10px;
+  z-index:1;
 }
 main {
   background: var(--accent-color);
@@ -225,6 +226,20 @@ main {
   }
   #menu-button {
     display: block;
+  }
+}
+@media (max-height: 500px){
+  #animated-logo{
+    margin-top:40vh;
+  }
+  #welcome{
+    margin-top:60vh;
+  }
+  .message{
+    margin-top:90vh;
+  }
+  #glossary-android-image{
+    margin-top:30vh;
   }
 }
 @keyframes jump {
