@@ -159,17 +159,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="resources/logo/G.png" />
     <link rel="stylesheet" href="/css/index.css" />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: true });
-    </script>
+    <link rel="preconnect" href="https://kit.fontawesome.com/1fe7acc072.js" />
   </head>
   <body>
-    <script
-      src="https://kit.fontawesome.com/1fe7acc072.js"
-      crossorigin="anonymous"
-    ></script>
-    <header class="reveal-content" style="z-index:2;">
+    <header style="z-index:2;">
       <h1 id="Glossary-logo">
         <span translate="no">Glossary</span><span id="nav-left-square" class="fas fa-caret-square-down fa-1x"></span>
       </h1>
@@ -189,18 +182,25 @@
       </div>
     </header>
     <main class="center">
-      <svg style="position:absolute; top:112px; z-index:0;" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
-        <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style=" stroke: none; fill:rgb(38, 77, 192);"></path>
+      <svg style="position:absolute; top:112px; z-index:0;" viewBox="0 0 400 200" preserveAspectRatio="xMinYMin meet">
+        <path d="M0,0 C150,200 350,0 500,100 L500,00 L0,0 Z" style=" stroke: none; fill:rgb(38, 77, 192);"></path>
       </svg>
       <content class="center">
         <span id="animated-logo" class="fas fa-caret-square-down fa-1x"></span>
         <h1 id="welcome">Welcome</h1>
         <p class="message">Glossary is an evolving project and you are part of it</p>
       </content>
-      <img id="glossary-android-image" style="top:70vh; position:absolute; filter: drop-shadow(0 20px .95rem rgba(0, 0, 0, 0.297)); z-index:0; " src="/resources/images/Glossary on android.png">
+      <img id="glossary-android-image" alt="Glossary Mobile" src="/resources/images/Glossary on android.png">
+      <footer>
+        <i class="fab fa-instagram fa-3x"></i>
+        <i class="fab fa-facebook fa-3x"></i>
+        <i class="fab fa-twitter fa-3x"></i>
+        <i class="fab fa-github fa-3x"></i>
+      </footer>
     </main>
-    <script>
-      ScrollReveal().reveal(".reveal-content", { delay: 400 }, { reset: true });
-    </script>
+    <script
+    src="https://kit.fontawesome.com/1fe7acc072.js"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>

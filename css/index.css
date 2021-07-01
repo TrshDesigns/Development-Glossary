@@ -6,7 +6,6 @@ html {
   user-select: none;
   -webkit-user-select: none;
   scroll-behavior: smooth;
-
 }
 body {
   font-size: 1.8rem;
@@ -15,8 +14,8 @@ body {
   margin: auto;
   color: #4a4a4a;
   background-color: #ffffff;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 :root {
   --primary-color: royalblue;
@@ -144,10 +143,16 @@ a:hover {
   -webkit-animation: jump 2.2s ease 0s infinite normal;
   animation: jump 2.2s ease 0s infinite normal;
   animation-delay: 1.8s;
-  z-index:0;
+  z-index: 0;
+}
+#glossary-android-image {
+  top: 70vh;
+  position: absolute;
+  filter: drop-shadow(0 20px 0.95rem rgba(0, 0, 0, 0.297));
+  z-index: 0;
 }
 .button {
-  height: 47px;
+  height: 49.5px;
   width: 120px;
   font-size: 20px;
   border: none;
@@ -157,6 +162,20 @@ a:hover {
   margin: 0px 5px 0px 5px;
   background: linear-gradient(315deg, #e6e6e6, #ffffff);
   box-shadow: -2px -1px 1px #c4c4c4, -2px 0px 0px #ffffff;
+}
+footer{
+  height:120px;
+  width:100%;
+  background-color: #121212;
+  position:absolute;
+  top:1150px;
+  border-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.fab:hover{
+  color:white;
 }
 .button:hover {
   transition: all ease-in-out 0.1s;
@@ -180,7 +199,7 @@ a:hover {
   background-color: rgb(45, 85, 208);
   font-size: 20px;
   border-radius: 10px;
-  z-index:1;
+  z-index: 1;
 }
 main {
   background: var(--accent-color);
@@ -228,18 +247,18 @@ main {
     display: block;
   }
 }
-@media (max-height: 500px){
-  #animated-logo{
-    margin-top:40vh;
+@media (max-height: 500px) {
+  #animated-logo {
+    margin-top: 40vh;
   }
-  #welcome{
-    margin-top:60vh;
+  #welcome {
+    margin-top: 60vh;
   }
-  .message{
-    margin-top:90vh;
+  .message {
+    margin-top: 90vh;
   }
-  #glossary-android-image{
-    margin-top:30vh;
+  #glossary-android-image {
+    margin-top: 30vh;
   }
 }
 @keyframes jump {
