@@ -158,8 +158,16 @@
     <meta http-equiv="expires" content="43200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="resources/logo/G.png" />
-    <link rel="stylesheet" href="/css/index.css" />
     <link rel="preconnect" href="https://kit.fontawesome.com/1fe7acc072.js" />
+    <!--Import boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--link to css/tools.css-->
+    <link rel="stylesheet" href="/css/tools.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script>
@@ -167,44 +175,59 @@
         navigator.serviceWorker.register('service-worker.js');
       }
     </script>
-    <header style="z-index:2;">
-      <h1 id="Glossary-logo">
-        <span translate="no">Glossary</span><span id="nav-left-square" class="fas fa-caret-square-down fa-1x"></span>
-      </h1>
-      <div id="top-header-items" style="width:100vw; z-index:2; height:50px; margin-top:10px; display:flex; justify-content:flex-end; position:absolute;">
-        <button class="button" id="login-button">
-          <a href="/html/Glossary.html">Login</a>
-        </button>
-        <button id="menu-button" style="display:none; border-radius:50%; width:100px; height:50px; background-color:royalblue" class="button"></button>
-      </div>
-      <div id="header-items">
-        <button class="button">
-          <a href="/html/Glossary.html">Glossary</a>
-        </button>
-        <button class="button">
-          <a href="/html/tools.html">Tools</a>
-        </button>
-        <button class="button" id="login-button-2">
-          <a href="/html/Glossary.html">Login</a>
-        </button>
-      </div>
-    </header>
     <main class="center">
-      <svg style="position:absolute; top:112px; z-index:0;" viewBox="0 0 400 200" preserveAspectRatio="xMinYMin meet">
-        <path d="M0,0 C150,200 350,0 500,100 L500,00 L0,0 Z" style=" stroke: none; fill:rgb(38, 77, 192);"></path>
-      </svg>
-      <content class="center">
-        <span id="animated-logo" class="fas fa-caret-square-down fa-1x"></span>
-        <h1 id="welcome">Welcome</h1>
-        <p class="message">Glossary is an evolving project and you are part of it</p>
-      </content>
-      <img id="glossary-android-image" alt="Glossary Mobile" src="/resources/images/Glossary on android.png">
-      <footer>
-        <i class="fab fa-instagram fa-3x"></i>
-        <i class="fab fa-facebook fa-3x"></i>
-        <i class="fab fa-twitter fa-3x"></i>
-        <i class="fab fa-github fa-3x"></i>
-      </footer>
+        <!--create a boostrap responsive 3x3 grid-->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                    <caption>
+                        <a href="https://www.cypress.io/">
+                            <img class="card-logo" src="https://www.cypress.io/static/33498b5f95008093f5f94467c61d20ab/59c46/cypress-logo.webp">
+                        </a>
+                    </caption>
+                  <h4 class="card-title">
+                    <span translate="no">Cypress</span>
+                  </h4>
+                  <p class="card-text">
+                   Testing library
+                  </p>
+                  <blockquote style="border-left:10px solid royalblue; border-radius:10px;" class="card-blockquote">
+                    <p class="card-blockquote-text">
+                      <span translate="no">A end to end test library for everything that runs in a browser</span>
+                    </p>
+                  </blockquote>
+                  <button class="action-btn">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <span translate="no">Glossary</span>
+                    </h4>
+                    <p class="card-text">
+                      <span translate="no">A list of terms used in programming</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <span translate="no">Glossary</span>
+                    </h4>
+                    <p class="card-text">
+                      <span translate="no">A list of terms used in programming</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
     <script
     src="https://kit.fontawesome.com/1fe7acc072.js"
