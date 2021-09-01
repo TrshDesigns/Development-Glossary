@@ -253,6 +253,7 @@ svg {
   width: 420px;
   height: 96%;
 }
+
 #search-bar::placeholder {
   font-family: "Fascinate", "cursive";
   color: royalblue;
@@ -261,6 +262,15 @@ svg {
     0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px, 0 10px 10px rgba(0, 0, 0, 0.072),
     0 5px 10px rgba(0, 0, 0, 0.228);
   font-size: 17px;
+}
+.main-buttons{
+  color:royalblue;
+  background:white;
+}
+.main-buttons:hover{
+  background:white;
+  color:royalblue;
+  border-radius:10px;
 }
 @media (max-width: 850px) {
   #nav-left:hover {
@@ -365,17 +375,41 @@ svg {
   h6 {
     font-size: 0.9em;
   }
-
   p {
     margin-top: 0px;
     margin-bottom: 1.5rem;
   }
+  .main-buttons {
+    background:royalblue;
+    color:white;
+    border-radius:10px;
+    transition:all 0.5s ease-in-out;
+    margin-left:17px;
+  }
+  .main-buttons:hover{
+    background:white;
+    color:royalblue;
+    border-radius:0px;
+  }
+  #home-button{
+    margin-left:15%;
+  }
+  #tool-button{
+
+  }
+  #home-button:hover{
+    background:white;
+    color:royalblue;
+    border-radius:0px;
+  }
+  #tools-button:hover{
+    color:royalblue;
+    background:white;
+    border-radius:0px;
+  }
   .svg-container {
     top: -12px;
     right: 0.5px;
-  }
-  .nav-left-anchor{
-    font-size:18.5px;
   }
   #nav-left-ul {
     margin-top: 0px;
@@ -387,17 +421,24 @@ svg {
     width: 100%;
     height: 0px;
     z-index: 10;
+    transition:all 0.2s ease-in-out;
     border-bottom: 7px solid rgb(45, 85, 208);
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
   }
   #nav-left:hover {
     border-top-left-radius: 0px;
-    transition: all 0.5s;
+    transition: all 0.3s;
     width: 100%;
     height: 30%;
     top: 100px;
     z-index: 10;
+  }
+  #nav-left:hover::-webkit-scrollbar {
+    width:10px;
+  }
+  .emoji{
+    width:55px;
   }
   br {
     display: none;
@@ -447,6 +488,7 @@ svg {
   }
   #search-header{
     margin-top:35px;
+    width:fit-content;
   }
   #search-background{
     top:80px;
@@ -454,14 +496,17 @@ svg {
     background:royalblue;
     width:100%;
     height:52.5px;
-    border-radius:3px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    display:flex;
+    flex-direction:row;
     z-index:1;
   }
   #search-bar {
     top:80px;
     width: 56.2%;
-    position:fixed;
-    z-index:1;
   }
   #nav-left-item {
     background-color: #f9f9ff;
@@ -665,10 +710,9 @@ button {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #1d7484;
-  color: #f9f9f9;
+  color: var(--primary-color);
+  border:0px;
   border-radius: 1px;
-  border: 1px solid #1d7484;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -681,10 +725,9 @@ button[disabled] {
 .button:hover:enabled,
 button:focus:enabled,
 button:hover:enabled {
-  background-color: #982c61;
+  background-color: var(--primary-color);
   border-color: #982c61;
   color: #f9f9f9;
-  outline: 0;
 }
 input::placeholder {
   background-color: white;
