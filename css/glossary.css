@@ -20,6 +20,9 @@ body {
   --accent-color:#110736;
   
 }
+.anchor-hidden-styles:visited{
+color:inherit;
+}
 h1,
 h2,
 h3,
@@ -79,6 +82,7 @@ p {
   border-radius: 20px;
   color: white;
   width: fit-content;
+  font-weight:bold;
 }
 .table {
   max-width: 1200px;
