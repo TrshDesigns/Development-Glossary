@@ -192,8 +192,8 @@ details:hover summary:hover {
   border-radius: 5px;
   z-index: 1;
 }
-#nav-left-item {
-  background-color: #f9f9ff;
+.nav-left-item {
+  background-color: #aeaebd;
   border-radius: 10px;
   list-style: none;
   margin:10px 20px 20px 0px;
@@ -201,12 +201,13 @@ details:hover summary:hover {
   transition: 1.6s;
   box-shadow: rgba(0, 0, 0, 0.11) 4px 5px 0px 0px;
 }
-#nav-left-item:hover {
+.nav-left-item:hover {
   background-color: royalblue;
   cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.22);
   transition: all ease-in-out 0.6s;
+  margin-bottom: 15px;
 }
 svg {
   display: inline-block;
@@ -322,13 +323,6 @@ svg {
   .nav-left-anchor {
     font-size: 20px;
   }
-  #nav-left-item {
-    margin-bottom: 10px;
-  }
-  #nav-left-item:hover {
-    margin-bottom: 15px;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
-  }
 }
 @media (max-width: 590px) {
   html{
@@ -398,9 +392,6 @@ svg {
   #home-button{
     margin-left:15%;
   }
-  #tool-button{
-
-  }
   #home-button:hover{
     background:white;
     color:royalblue;
@@ -417,6 +408,7 @@ svg {
   }
   #nav-left-ul {
     margin-top: 0px;
+    overflow-x: visi;
   }
   #nav-left {
     background-color: #fafaff;
@@ -434,7 +426,7 @@ svg {
     border-top-left-radius: 0px;
     transition: all 0.3s;
     width: 100%;
-    height: 30%;
+    height: 40%;
     top: 100px;
     z-index: 10;
   }
@@ -512,7 +504,7 @@ svg {
     top:80px;
     width: 56.2%;
   }
-  #nav-left-item {
+  .nav-left-item {
     background-color: #f9f9ff;
     border-radius: 10px;
     list-style: none;
@@ -524,7 +516,7 @@ svg {
     box-shadow: rgba(0, 0, 0, 0.065) 4px 5px 0px 0px;
     z-index:0;
   }
-  #nav-left-item:hover {
+  .nav-left-item:hover {
     background-color: royalblue;
     border-radius: 10px;
     list-style: none;
